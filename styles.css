@@ -1,0 +1,38 @@
+body {
+  margin: 0px
+}
+
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar {
+  margin-right: 90px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+ }
+
+.navbar a {
+  color: rgba(0,0,0,0.87);
+  padding: 1.5rem 0.75rem;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #fafafa;
+  color: #3273dc;
+}
+
+.navbar__logo {
+  width: 286px;
+  margin-left: 90px;
+}
