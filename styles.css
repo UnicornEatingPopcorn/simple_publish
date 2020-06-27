@@ -10,6 +10,7 @@ body {
   overflow: hidden;
   position: fixed;
   top: 0px;
+  height: 64px;
   width: 100%;
   align-items: center;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
@@ -21,6 +22,43 @@ body {
   display: flex;
   align-items: center;
  }
+
+ @media only screen and (max-width: 1023px) {
+  .navbar {
+    display: none
+  }
+ }
+
+.navbar-mobile {
+  display: none;
+  margin-right: 90px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1023px) {
+  .navbar-mobile {
+    display: block
+  }
+ }
+
+#navMenu {
+  display: none;
+  margin-top: 64px;
+  position: fixed;
+  width: 100%
+}
+
+.navmenu__item {
+  border-top: 1px solid rgba(151,151,151,0.5);
+  cursor: pointer;
+  background-color: #f6f7f6;
+  text-align: center;
+  border-bottom: 1px solid rgba(151,151,151,0.5);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: rgba(0,0,0,0.87);
+  height: 40px;
+}
 
 .navbar a {
   color: rgba(0,0,0,0.87);
