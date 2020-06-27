@@ -108,3 +108,36 @@ body {
   color: rgba(0,0,0,0.87);
   margin: 0px;
 }
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 30px 550px 30px 350px;
+  margin-top: 30px;
+  padding: 60px 90px;
+  border-top: 1px solid #979797;
+  grid-template-rows: 50px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.footer-item-1 {
+  grid-row: 1 / span 2;
+}
+
+.footer-item-2 {
+  grid-row: 1 / span 2;
+}
+
+.footer-item-7 {
+  display: flex;
+  grid-column: 1/ span 2;
+}
+
+.footer-item-7 a {
+  margin-right: 1.37rem;
+}
+
+.footer-item-6 a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
